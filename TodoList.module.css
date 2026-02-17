@@ -1,0 +1,137 @@
+.todo_container {
+  max-width: 760px;
+  margin: 40px auto;
+  padding: 28px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== INPUT ===== */
+.todo_input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.todo_input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* ===== ADD BUTTON ===== */
+.add_btn {
+  margin-top: 14px;
+  padding: 12px 18px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.add_btn:hover {
+  background-color: #1d4ed8;
+}
+
+.add_btn:active {
+  transform: scale(0.97);
+}
+
+/* ===== TABLE ===== */
+.todo_table {
+  width: 100%;
+  margin-top: 28px;
+  border-collapse: collapse;
+}
+
+.todo_table th {
+  background-color: #f3f4f6;
+  padding: 14px;
+  font-weight: 600;
+  color: #111827;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.todo_table td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+  color: #374151;
+}
+
+.todo_table tr:hover {
+  background-color: #f9fafb;
+}
+
+.action_btn:hover {
+  opacity: 0.9;
+}
+
+.action_btn:active {
+  transform: scale(0.95);
+}
+
+.delete {
+  background-color: #dc2626;
+}
+
+.uppercase {
+  background-color: #16a34a;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.action_btn {
+  padding: 6px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.done_btn {
+  background-color: #64748b;
+}
+
+/* ===== DONE TASK ===== */
+.done {
+  text-decoration: line-through;
+  color: #df444a;
+}
+
+
+/* ===== BOTTOM BUTTONS ===== */
+.bottom_btns {
+  margin-top: 24px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+
+.bottom_btns button {
+  padding: 12px 18px;
+  background-color: #374151;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bottom_btns button:hover {
+  background-color: #1f2937;
+}
